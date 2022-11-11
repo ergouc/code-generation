@@ -1,0 +1,28 @@
+#app {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  position: fixed;
+  background-color: #f1f1f1;
+  font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+}
+
+.public_body{
+  padding: 10px;
+  height: calc(100% - 20px);
+}
+
+.public_head,.public_content{
+  padding: 20px;
+  border-radius: 16px;
+  background-color: #fff;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1)
+}
+
+.public_content{
+  margin-top: 20px;
+  overflow-y: auto;
+  max-height: calc(100% - 184px);
+}
